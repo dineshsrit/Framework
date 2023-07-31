@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Regression1"  thread-count="2" parallel="methods" >
+        <parameter name="browser" value="CHROME"/>
+
+
+        <!--<packages>
+            <package name="org.selenium.pom.tests" />
+        </packages>-->
+        <classes>
+            
+          <!--  <class name="org.selenium.pom.tests.MyFirstTestCase">
+                <methods>
+                    <include name="dummyTestCases"/>
+                    <exclude name="someTest"/>
+                </methods>
+
+            </class>-->
+            <class name="org.selenium.pom.tests.NavigationTest"></class>
+        </classes>
+
+
+    </test>
+</suite>
