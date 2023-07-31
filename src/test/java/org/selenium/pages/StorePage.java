@@ -68,4 +68,10 @@ public class StorePage extends BasePage {
     {
         return driver.findElement(storeTitle).getText();
     }
+
+    public StorePage load()
+    {
+        load("/store");
+        return this;
+    }
 }

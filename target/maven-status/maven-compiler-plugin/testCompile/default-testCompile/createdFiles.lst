@@ -11,6 +11,7 @@ org\selenium\pages\HomePage.class
 org\selenium\pom\tests\TestClass.class
 org\selenium\pom\tests\NavigationTest.class
 org\selenium\pom\constants\EnvType.class
+org\selenium\pom\tests\SearchTest.class
 org\selenium\pages\CheckOutPage.class
 org\selenium\pom\tests\MyFirstTestCase.class
 org\selenium\pom\factory\DriverManager$1.class

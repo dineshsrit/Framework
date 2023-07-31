@@ -24,4 +24,6 @@ public class HomePage extends BasePage {
         return new StorePage(driver);
     }
 
+
+
 }

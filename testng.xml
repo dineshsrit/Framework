@@ -17,7 +17,7 @@
                 </methods>
 
             </class>-->
-            <class name="org.selenium.pom.tests.NavigationTest"></class>
+            <class name="org.selenium.pom.tests.SearchTest"></class>
         </classes>
 
 
